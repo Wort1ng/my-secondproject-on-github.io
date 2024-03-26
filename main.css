@@ -1,0 +1,834 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+TC:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Domine:wght@400..700&family=Fjalla+One&family=Indie+Flower&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nanum+Myeongjo&family=Noto+Sans+TC:wght@100..900&family=Roboto+Slab:wght@100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+#Brown_Back {
+  position: static;
+  width: 100%;
+  height: 900px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid burlywood;
+  vertical-align: bottom;
+  pointer-events: none;
+}
+
+#DogBack {
+  position: absolute;
+  width: 40%;
+  height: 745px;
+  padding-top: 158px;
+  padding-left: 43%;
+  vertical-align: bottom;
+}
+
+#header_font {
+  position: absolute;
+  color: bisque;
+  padding-top: 25px;
+  padding-left: 350px;
+  font-size: 210%;
+}
+
+#nav1 {
+  position: absolute;
+  color: white;
+  margin-top: 40px;
+  margin-left: 1070px;
+  font-size: 140%;
+  text-decoration: underline;
+  color: bisque;
+  cursor: pointer;
+}
+
+#nav2 {
+  position: absolute;
+  color: white;
+  margin-top: 40px;
+  margin-left: 1260px;
+  font-size: 150%;
+}
+#nav2:hover {
+  font-size: 160%;
+  color: bisque;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#nav3 {
+  position: absolute;
+  color: white;
+  margin-top: 40px;
+  margin-left: 1380px;
+  font-size: 150%;
+}
+#nav3:hover {
+  font-size: 160%;
+  color: bisque;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#nav4 {
+  position: absolute;
+  color: white;
+  margin-top: 40px;
+  margin-left: 1570px;
+  font-size: 150%;
+}
+#nav4:hover {
+  font-size: 160%;
+  color: bisque;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text {
+  position: absolute;
+  color: white;
+  padding-top: 70px;
+  padding-left: 350px;
+  font-size: 110%;
+}
+
+.Icons {
+  position: absolute;
+  padding-top: 105px;
+  padding-left: 330px;
+  width: 12%;
+}
+
+#zag {
+  position: absolute;
+  color: white;
+  padding-left: 350px;
+  padding-top: 350px;
+  font-size: 50px;
+}
+
+.default_text {
+  position: absolute;
+  color: blanchedalmond;
+  padding-left: 350px;
+  padding-top: 500px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 22px;
+}
+
+
+#MakeButton1 {
+  position: absolute;
+  background: bisque;
+  margin-left: 350px;
+  margin-top: 645px;
+  padding: 20px 50px;
+  padding-top: 10px;
+  height: 15px;
+  width: 120px;
+  border-radius: 30px;
+  font-size: 21px;
+  border: 2px solid transparent;
+}
+
+#MakeButton1:hover {
+  transition: 0.5s;
+  background-color: saddlebrown;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+#MakeButton1:not(:hover) {
+  transition: 1.2s ease;
+}
+
+#AboutPets {
+  position: absolute;
+  margin-top: 1000px;
+  padding-left: 550px;
+  width: 300px;
+}
+
+#BrownTwo {
+  position: static;
+  width: 100%;
+  height: 591px;
+  border-bottom: 3px solid burlywood;
+  pointer-events: none;
+}
+
+#zag2 {
+  position: absolute;
+  margin-top: 1000px;
+  padding-left: 48%;
+  font-size: 38px;
+  color: burlywood;
+}
+
+#default_text2 {
+  position: absolute;
+  margin-top: 1100px;
+  padding-left: 48%;
+  font-size: 20px;
+  color: white;
+  line-height: 1.8;
+}
+
+#default_text3 {
+  position: absolute;
+  margin-top: 1260px;
+  padding-left: 48%;
+  font-size: 20px;
+  color: white;
+  line-height: 1.8;
+}
+
+#BackOnLine {
+  position: absolute;
+  margin-top: 1500px;
+  width: 100%;
+  height: 860px;
+  pointer-events: none;
+}
+
+#ocherednoy {
+  position: absolute;
+  margin-top: 1560px;
+  margin-left: 41%;
+  font-size: 40px;
+  text-align: center;
+  color: bisque;
+}
+
+#IconCat1New {
+  position: absolute;
+  margin-top: 1730px;
+  margin-left: 476px;
+  text-align: left;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid transparent;
+  transition: border-color 0.3s;
+  width: 260px;
+  height: 270px;
+  pointer-events: none;
+}
+
+#back_BORDER {
+  position: absolute;
+  margin-top: 1730px;
+  margin-left: 475px;
+  border-radius: 15px;
+  background-color: #f7dfb1;
+  width: 266px;
+  height: 422px;
+  border: 2px solid transparent;
+}
+#back_BORDER:hover {
+  box-shadow: 0 0 33px rgb(255, 186, 59);
+  border-color: saddlebrown;
+  transition: 0.8s;
+  cursor: pointer;
+}
+#back_BORDER:not(:hover) {
+  transition: 0.7s;
+}
+
+#Katrine {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  margin-top: 2016px;
+  margin-left: 555px;
+  letter-spacing: 0.2cap;
+  font-size: 26px;
+  pointer-events: none;
+}
+#LearnMore1 {
+  position: absolute;
+  background-color: burlywood;
+  width: 200px;
+  height: 50px;
+  margin-top: 2065px;
+  margin-left: 510px;
+  border-radius: 30px;
+  font-size: 24px;
+  transition: color 0.8s ease;
+  transition: background-color 0.6s ease;
+}
+#LearnMore1:hover {
+  cursor: pointer;
+  color: white;
+  background-color: saddlebrown;
+}
+#LearnMore1:not(:hover) {
+  transition-delay: 0.2s;
+}
+#IconDog1New {
+  position: absolute;
+  margin-top: 1730px;
+  margin-left: 857px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid transparent;
+  transition: border-color 0.3s;
+  width: 260px;
+  height: 270px;
+  pointer-events: none;
+}
+
+#back_BORDER2 {
+  position: absolute;
+  margin-top: 1730px;
+  margin-left: 45%;
+  border-radius: 15px;
+  background-color: #f7dfb1;
+  width: 266px;
+  height: 422px;
+  border: 2px solid transparent;
+}
+#back_BORDER2:hover {
+  box-shadow: 0 0 33px rgb(255, 186, 59);
+  border-color: saddlebrown;
+  transition: 0.8s ease;
+  cursor: pointer;
+}
+#back_BORDER2:not(:hover) {
+  transition: 0.7s;
+}
+
+#Jennifer {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  margin-top: 2016px;
+  margin-left: 935px;
+  letter-spacing: 0.2cap;
+  font-size: 26px;
+  pointer-events: none;
+}
+
+#LearnMore2 {
+  position: absolute;
+  background-color: burlywood;
+  width: 200px;
+  height: 50px;
+  margin-top: 2065px;
+  margin-left: 890px;
+  border-radius: 30px;
+  font-size: 24px;
+  transition: color 0.8s ease;
+  transition: background-color 0.6s ease;
+}
+#LearnMore2:hover {
+  cursor: pointer;
+  background-color: saddlebrown;
+  color: white;
+}
+#LearnMore2:not(:hover) {
+  transition-delay: 0.2s;
+}
+
+#back_BORDER3 {
+  position: absolute;
+  margin-top: 1730px;
+  margin-left: 65%;
+  border-radius: 15px;
+  background-color: #f7dfb1;
+  width: 266px;
+  height: 422px;
+  transition: 0.8s ease;
+  border: 2px solid transparent;
+}
+#back_BORDER3:hover {
+  box-shadow: 0 0 33px rgb(255, 186, 59);
+  border-color: saddlebrown;
+  transition: 0.8s;
+  cursor: pointer;
+}
+#back_BORDER3:not(:hover) {
+  transition: 0.7s;
+}
+
+#IconDog2New {
+  position: absolute;
+  margin-top: 1730px;
+  margin-left: 1238px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid transparent;
+  transition: border-color 0.3s;
+  width: 260px;
+  height: 270px;
+  pointer-events: none;
+}
+
+#Woody {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  margin-top: 2016px;
+  margin-left: 1335px;
+  letter-spacing: 0.2cap;
+  font-size: 26px;
+  pointer-events: none;
+}
+
+#LearnMore3 {
+  position: absolute;
+  background-color: burlywood;
+  width: 200px;
+  height: 50px;
+  margin-top: 2065px;
+  margin-left: 1270px;
+  border-radius: 30px;
+  font-size: 24px;
+  transition: color 0.8s ease;
+  transition: background-color 0.6s ease;
+}
+#LearnMore3:hover {
+  cursor: pointer;
+  color: white;
+  background-color: saddlebrown;
+}
+#LearnMore3:not(:hover) {
+  transition-delay: 0.2s;
+}
+
+#GetToKnowTheRest {
+  position: absolute;
+  background-color: burlywood;
+  width: 325px;
+  height: 55px;
+  margin-top: 2223px;
+  margin-left: 825px;
+  border-radius: 30px;
+  font-size: 24px;
+  transition: background-color 0.7s ease;
+  letter-spacing: 0.1cap;
+  color: white;
+  -webkit-text-stroke: 0.9px black;
+  transition: 0.7s ease;
+}
+#GetToKnowTheRest:hover {
+  cursor: pointer;
+  color: blanchedalmond;
+  background-color: saddlebrown;
+  box-shadow: 0 0 33px #f7dfb1;
+}
+
+#GetToKnowTheRest:not(:hover) {
+  transition-delay: 0.2s;
+}
+
+#Left_Button {
+  position: absolute;
+  font-size: 26px;
+  margin-top: 1910px;
+  margin-left: 318px;
+  background-color: #f7dfb1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid black;
+  transition: 0.7s ease;
+  cursor: pointer;
+}
+
+#Left_Button:hover {
+  background-color: saddlebrown;
+  color: wheat;
+  border-color: black;
+  box-shadow: 0 0 33px #f7dfb1;
+}
+
+#Right_Button {
+  position: absolute;
+  font-size: 26px;
+  margin-top: 1910px;
+  margin-left: 1593px;
+  background-color: #f7dfb1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid black;
+  transition: 0.7s ease;
+  cursor: pointer;
+}
+
+#Right_Button:hover {
+  background-color: saddlebrown;
+  color: wheat;
+  border-color: black;
+  box-shadow: 0 0 33px #f7dfb1;
+}
+
+#BrownTree {
+  position: static;
+  margin-top: 856px;
+  width: 100%;
+  height: 1400px;
+  border-top: 3px solid burlywood;
+  border-bottom: 3px solid burlywood;
+  vertical-align: bottom;
+  pointer-events: none;
+}
+
+#text_text {
+  position: absolute;
+  width: 400px;
+  height: 55px;
+  margin-top: 2410px;
+  margin-left: 41%;
+  font-size: 45px;
+  text-align: center;
+  color: #f1c87c;
+}
+
+#food_shelter {
+  position: absolute;
+  margin-top: 2590px;
+  margin-left: 415px;
+  width: 80px;
+  height: 75px;
+}
+
+#transportant_shelter {
+  position: absolute;
+  margin-top: 2583px;
+  margin-left: 665px;
+  width: 90px;
+  height: 90px;
+}
+
+#toys_shelter {
+  position: absolute;
+  margin-top: 2590px;
+  margin-left: 935px;
+  width: 80px;
+  height: 80px;
+}
+
+#BowlsAndCups {
+  position: absolute;
+  margin-top: 2595px;
+  margin-left: 1205px;
+  width: 80px;
+  height: 80px;
+}
+
+#Shampoos {
+  position: absolute;
+  margin-top: 2595px;
+  margin-left: 1475px;
+  width: 80px;
+  height: 80px;
+}
+
+#Vitamins {
+  position: absolute;
+  margin-top: 2790px;
+  margin-left: 540px;
+  width: 80px;
+  height: 80px;
+}
+
+#icon-medicines {
+  position: absolute;
+  margin-top: 2790px;
+  margin-left: 800px;
+  width: 80px;
+  height: 80px;
+}
+
+#icon-collars-leashes {
+  position: absolute;
+  margin-top: 2790px;
+  margin-left: 1060px;
+  width: 80px;
+  height: 80px;
+}
+
+#icon-sleeping-area {
+  position: absolute;
+  margin-top: 2790px;
+  margin-left: 1340px;
+  width: 80px;
+  height: 80px;
+}
+
+.class-text-bottom {
+  font-size: 24px;
+  color: white;
+  letter-spacing: 0.2cap;
+}
+
+#PetFood_font {
+  position: absolute;
+  margin-top: 2690px;
+  margin-left: 400px;
+  width: 200px;
+  height: 50px;
+}
+
+#Transportation_font {
+  position: absolute;
+  margin-top: 2690px;
+  margin-left: 615px;
+  width: 200px;
+  height: 50px;
+}
+
+#Toys_font {
+  position: absolute;
+  margin-top: 2690px;
+  margin-left: 946px;
+  width: 200px;
+  height: 50px;
+}
+
+#BowlsAndCups_font {
+  position: absolute;
+  margin-top: 2690px;
+  margin-left: 1145px;
+  width: 200px;
+  height: 50px;
+}
+
+#Shampoos_font {
+  position: absolute;
+  margin-top: 2690px;
+  margin-left: 1450px;
+  width: 200px;
+  height: 50px;
+}
+
+#Vitamins_font {
+  position: absolute;
+  margin-top: 2890px;
+  margin-left: 521px;
+  width: 200px;
+  height: 50px;
+}
+
+#Medicines_font {
+  position: absolute;
+  margin-top: 2890px;
+  margin-left: 770px;
+  width: 200px;
+  height: 50px;
+}
+
+#CollarsLeashes_font {
+  position: absolute;
+  margin-top: 2890px;
+  margin-left: 995px;
+  width: 400px;
+  height: 50px;
+}
+
+#SleepingArea_font {
+  position: absolute;
+  margin-top: 2890px;
+  margin-left: 1285px;
+  width: 400px;
+  height: 50px;
+}
+
+#BottomFon {
+  position: absolute;
+  border-top: 2px solid #f7dfb1;
+  border-left: 2px solid #f7dfb1;
+  border-right: 2px solid #f7dfb1;
+  margin-top: 3050px;
+  margin-left: 300px;
+  width: 1350px;
+  height: 711px;
+}
+
+#BottomFon121 {
+  position: absolute;
+  border-left: 2px solid #f7dfb1;
+  border-right: 2px solid #f7dfb1;
+  border-top: 2px solid #f7dfb1;
+  margin-top: 3425px;
+  margin-left: 300px;
+  width: 1350px;
+  height: 335px;
+}
+
+#donation-dog {
+  position: absolute;
+  margin-top: 3090px;
+  margin-left: 415px;
+  width: 600px;
+  height: 300px;
+  pointer-events: none;
+}
+
+#YouCanAlsoDonation {
+  position: absolute;
+  margin-top: 3090px;
+  margin-left: 1050px;
+  font-size: 43px;
+  color: rgb(231, 231, 231);
+  letter-spacing: 0.1cap;
+}
+
+#NameOfTheBank {
+  position: absolute;
+  margin-top: 3200px;
+  margin-left: 1050px;
+  font-size: 18px;
+  color: rgb(231, 231, 231);
+  letter-spacing: 0.1cap;
+}
+
+#carta_back {
+  position: absolute;
+  margin-top: 3250px;
+  font-size: 23px;
+  margin-left: 1050px;
+  background-color: #f7dfb1;
+  color: rgb(83, 83, 83);
+  border-radius: 10px;
+  width: 310px;
+  height: 30px;
+  padding-top: 8px;
+  padding-left: 60px;
+  letter-spacing: 0.1cap;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+#carta_back:hover {
+  background-color: #c2aa7f;
+  transition: 0.9s;
+}
+
+#lorem {
+  position: absolute;
+  margin-top: 3308px;
+  margin-left: 1050px;
+  font-size: 14px;
+  color: rgb(231, 231, 231);
+  line-height: 138%;
+  font-style: italic;
+  letter-spacing: 0.3px;
+}
+
+#footer-puppy {
+  position: absolute;
+  margin-top: 3463px;
+  margin-left: 1265px;
+  width: 300px;
+  height: 300px;
+  pointer-events: none;
+}
+
+#credit-card {
+  position: absolute;
+  margin-top: 3255px;
+  margin-left: 1065px;
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+}
+
+#ForQuestions {
+  position: absolute;
+  margin-top: 3465px;
+  margin-left: 360px;
+  font-size: 38px;
+  color: rgb(231, 231, 231);
+  letter-spacing: 0.1cap;
+}
+
+#WeAreWaiting {
+  position: absolute;
+  margin-top: 3465px;
+  margin-left: 805px;
+  font-size: 38px;
+  color: rgb(231, 231, 231);
+  letter-spacing: 0.1cap;
+}
+
+#email-shelter {
+  position: absolute;
+  margin-top: 3585px;
+  color: bisque;
+  margin-left: 430px;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+#nomer {
+  position: absolute;
+  margin-top: 3650px;
+  margin-left: 430px;
+  color: bisque;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+#country {
+  position: absolute;
+  margin-top: 3573px;
+  margin-left: 865px;
+  font-size: 20px;
+  color: bisque;
+  cursor: pointer;
+}
+
+#country_2 {
+  position: absolute;
+  margin-top: 3650px;
+  margin-left: 865px;
+  font-size: 20px;
+  color: bisque;
+  cursor: pointer;
+}
+
+#g-mail {
+  position: absolute;
+  margin-top: 3578px;
+  margin-left: 370px;
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+}
+
+#icon-phone2 {
+  position: absolute;
+  margin-top: 3643px;
+  margin-left: 370px;
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+}
+
+#country-pin {
+  position: absolute;
+  margin-top: 3573px;
+  margin-left: 810px;
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+}
+
+#country-pin2 {
+  position: absolute;
+  margin-top: 3640px;
+  margin-left: 810px;
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+}
